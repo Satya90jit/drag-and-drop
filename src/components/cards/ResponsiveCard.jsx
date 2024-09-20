@@ -88,7 +88,7 @@ const ResizableCard = () => {
             onClick={() => setOpen(!open)}
             className="text-sm px-2 py-1"
           >
-            {open ? "Hide Calendar" : "Show Calendar"}
+            {open ? "Collapse" : "Expand"}
           </Button>
         </div>
 
