@@ -1,4 +1,4 @@
-import { DraggableList } from "@/components/cards";
+import { DraggableList } from "@/components/drag-drop";
 import { Button } from "@mui/material";
 import Link from "next/link";
 import React from "react";
@@ -17,7 +17,7 @@ const DraggableListPage = () => {
       <h1 className="text-2xl font-bold mb-6">Draggable List</h1>
       <Button>
         <Link
-          href={"/"}
+          href={"/tasks/drag-and-drop-card"}
           className="px-4 py-1 border border-gray-200 rounded-md text-sm bg-gray-100 hover:bg-gray-200/70"
         >
           Drag-Drop Card
